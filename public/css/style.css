@@ -1,0 +1,120 @@
+body {
+    background-color: #D2E0DD;
+    text-align: center;
+}
+
+main {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #004466;
+  }
+
+ p {
+    text-align: center;
+    color:#631104;
+    font-size: 25px;
+    
+}
+/*error404 styles here*/
+.funny-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.funny-img {
+    height: 50vh;
+    width: 30vw;
+
+}
+
+.photo-by-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*Home styles here*/
+.home-image {
+    width: 90vw;
+    height: 60vh;
+}
+
+.oops-text {
+    font-size: 50px;
+    color: #004466
+}
+
+.btn-primary {
+    width: 130px;
+    height: 50px;
+}
+
+/*Index styles here*/
+h2 {
+    color:#631104;
+    font-size: 30px;
+}
+
+/*NAVBAR styles here*/
+nav {
+    background-color: #FDB560;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    color: #631104;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: #002067;
+    text-decoration: none;
+}
+
+/*SHOW PAGE STYLES*/
+.show-main {
+    background-color: white;
+}
+.show-page-container {
+    display: flex;
+    
+}
+.rating-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+.show-rating {
+    padding-top: 50px;
+    text-decoration: underline;
+}
+.show-description {
+    padding-top: 100px;
+    text-decoration: underline;
+}
+.show-comments {
+    padding-top: 50px;
+    text-decoration: underline;
+}
+.rest-pics {
+    width: 50vw;
+    height: 60vh;
+}
